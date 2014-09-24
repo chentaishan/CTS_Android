@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C2C2C2"
+    android:orientation="vertical" >
+
+    <include layout="@layout/com_titlebar" />
+
+    <ListView
+        android:id="@+id/setting_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_weight="1.0"
+        android:padding="15dp" />
+ 
+</LinearLayout>
